@@ -1,0 +1,7 @@
+kind: Kustomization
+bases:
+ - ../../base
+resources: 
+- dbcliam-pvc.yaml 
+- route.yaml
+namePrefix: dev- 
