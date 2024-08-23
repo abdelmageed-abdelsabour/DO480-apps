@@ -2,3 +2,5 @@ kind: Kustomization
 
 bases:
 - ../../base
+
+namePrefix: emea- 
