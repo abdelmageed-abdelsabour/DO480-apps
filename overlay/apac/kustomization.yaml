@@ -5,9 +5,9 @@ bases:
 
 resources:
  - route.yaml
- 
+
 namePrefix: apac-
 images:
- - image: mysql
+ - name: mysql
    newName: registry.redhat.io/rhel8/mysql-80
    newTag: 152
