@@ -6,7 +6,7 @@ bases:
 resources:
  - route.yaml
 
-namePrefix: "-emea"
+nameSuffix: -emea
 
 images:
  - name: mysql
